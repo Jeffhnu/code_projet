@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulaire Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lalezar&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lalezar&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet"> 
+  <style>
+    body {
+      background-color: #f0f0f0; /* Fond gris pour le corps de la page */
+    }
+    
+    .custom-orange-bg {
+      background-color: #EE5A34;
+      color: azure;
+      padding: 10px; /* Ajuster le padding pour l'espace intérieur */
+      min-height: 10vh; /* Hauteur minimale de 100% de la vue */
+      margin-bottom: -10px; /* Marge négative pour pousser vers le bas */
+      padding-bottom: 10px; /* Padding pour compenser la marge négative */
+     
+      
+     
+      position: relative;
+      z-index: 1; /* Assurer que le fond orange est au-dessus */
+    }
+    
+    .form-container {
+      background-color: white;
+      padding: 20px;
+      border-top-left-radius: 30px; /* Arrondi en haut à gauche */
+      border-bottom-left-radius: 30px; /* Arrondi en bas à gauche */
+      
+     
+      box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1); /* Ombre légère */
+      position: relative;
+      z-index: 2; /* Assurer que le formulaire est au-dessus du fond orange */
+      margin-left: -30px; /* Décalage vers la gauche pour la superposition */
+      overflow: hidden; /* Empêche le contenu de déborder sur les côtés */
+    }
+   
+    
+  
+  </style>
+</head>
+<body class="vh-100 overflow-hidden">
+  <div class="row h-100">
+    <div class="col-lg-4 custom-orange-bg">
+      <!-- Contenu orange sur le côté gauche -->
+      <h4 style="color: black; ">CultureBénin</h4>
+      <h2  class="h-100 d-flex align-items-center justify-content: center;">Pour rester connecter à nous ,fournissez nous vos informations</h2>
+    </div>
+    <div class="col h-100 form-container position-relative" style="
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;">
+      <!-- Contenu formulaire sur le côté droit -->
+      <div class="container" style="max-width: 650px;
+      overflow: scroll;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;"><div  class=" mt-3 mt-lg-0">
+       <div class="text-center mb-4"> 
+        <h2  style="width: 700, ; size: 48px;">Connectez vous</h2>
+        <button type="button"  >
+          <i class="fab fa-google me-2"  ></i> S'inscrire avec Google
+        </button>
+        </div>
+        <h5 class="text-center">Ou</h5>
+        
+        <form>
+         
+          <div class="mb-3">
+            <label for="email" class="form-label"></label>
+            <input type="email" class="form-control rounded" id="email" placeholder="Email">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label"></label>
+            <input type="password" class="form-control" id="password" placeholder="Mot de passe">
+          </div>
+          
+          <button  type="submit" class="btn btn-primary  btn-right-text w-100" style="background-color: #EE5A34;" >Créer un compte</button> <br><br>
+          <h6 style="text-align: center;" >Vous avez déjà un compte? <a href="#" style="color: black;" >Se connecter</a></h6>
+        </form>
+      </div></div>
+    </div>
+  </div>
+ 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

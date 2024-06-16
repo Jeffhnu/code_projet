@@ -1,0 +1,56 @@
+.custom-orange-bg {
+    background-color: #EE5A34;
+   
+  }
+  
+  .btn-orange {
+    background-color: #EE5A34;
+    color: white;
+    width: 50%; /* Pour occuper toute la largeur disponible */
+  }
+  h4{ 
+    font-family : « Satisfy », cursive ;
+ poids de police : 400 ;
+ font-style : normal ;
+  }
+  h2{  
+    famille de polices : « Montserrat », sans empattement ;
+    font-optical-sizing : auto ;
+    font-weight : <poids> ;
+    font-style : normal ;
+    padding : 10px 15px 20px 25px;
+    weight: 700px;
+  }
+  input[type="text"] {
+    font-family : « Open Sans », sans-serif ;
+    font-optical-sizing : auto ;
+    font-weight : <poids> ;
+    font-style : normal ;
+    font-variation-settings :
+    « wdth » 100 ;
+    
+}
+h6 {
+  font-family : « Open Sans », sans-serif ;
+  font-optical-sizing : auto ;
+  font-weight : <poids> ;
+  font-style : normal ;
+  font-variation-settings :
+  « wdth » 100 ;
+
+}
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  font-family : « Open Sans », sans-serif ;
+  font-optical-sizing : auto ;
+  font-weight : <poids> ;
+  font-style : normal ;
+  font-variation-settings :
+  « wdth » 100 ;
+    
+}
+  
+  
+  

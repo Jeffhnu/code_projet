@@ -1,0 +1,88 @@
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+
+  .centered-text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: Black; /* Couleur du texte */
+  }
+  .left-aligned {
+    text-align: left;
+  }
+  .navbar-nav .nav-link:hover,
+.btn-secondary:hover {
+  color:  #EE5A34; 
+  border-radius: 15px;
+}
+.navbar-nav .nav-item:nth-child(5) {
+    margin-right: 30px; /* Ajuste cette valeur selon l'espace que tu veux ajouter */
+  }
+  
+
+.navbar-brand, .h2-on-same-line {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  @media (max-width: 991px) {
+    .h2-on-same-line {
+      display: block;
+      margin-top: 10px; /* Ajuste cette valeur selon tes préférences */
+    }
+  }
+ 
+
+
+ 
+  .btn-orange:hover {
+    color:  #EE5A34;
+    border-radius: 15px;
+    ; 
+  }
+  /* Ajoute cette partie de code dans ton fichier styles.css */
+
+
+  
+  .text-container h2 {
+    margin-bottom: 20px; /* Ajuster l'espacement entre le texte et le bouton */
+  }
+  
+  .btn-orange {
+    background-color: orange;
+    border-color: orange;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  .btn-orange:hover {
+    background-color:  orange;
+    border-color:  orange;
+    border-radius: 15px;
+  }
+  
+  .navbar-nav .nav-link {
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color:  #EE5A34;
+  }
+  
+  .navbar-nav .nav-item + .nav-item {
+    margin-left: 15px; 
+  }
+  .text-center p {
+    margin-top: 5px;
+     }
+     
+  
+  
+  
