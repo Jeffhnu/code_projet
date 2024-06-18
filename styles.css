@@ -20,7 +20,7 @@ html, body {
   .navbar-nav .nav-link:hover,
 .btn-secondary:hover {
   color:  #EE5A34; 
-  border-radius: 15px;
+
 }
 .navbar-nav .nav-item:nth-child(5) {
     margin-right: 30px; /* Ajuste cette valeur selon l'espace que tu veux ajouter */
