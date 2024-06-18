@@ -30,6 +30,10 @@
       background: white;
       border-radius: 50%;
     }
+    h5:hover {
+    background-color:  #EE5A34;
+
+}
   </style>
 </head>
 <body class="vh-100 d-flex flex-column">
@@ -57,12 +61,12 @@
             <a class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Se connecter</a>
+            <a class="nav-link" href="connexon.html">Se connecter</a>
           </li>
           <li class="nav-item d-flex align-items-center">
             <span class="mx-2" style="border-left: 1px solid #000; height: 24px;"></span>
           <li class="nav-item ">
-            <a class="nav-link" href="#" >S'inscrire</a>
+            <a class="nav-link" href="inscription.html" >S'inscrire</a>
           </li>
           <li class="nav-item">
            
@@ -77,11 +81,11 @@
       <!-- Contenu orange sur le côté gauche -->
       <h2 style="color: black;" class="mb-3">Paramètres du compte</h2>
      
-      <div class="mt-5 p-4 pl-3">
-        <h5 >Informations</h5>
+      <div >
+        <h5 class="mt-5 p-4 pl-3">Informations</h5>
       </div  >
-      <h5  class="mt-2 p-4 ml-3">Modifier l'email</h5>
-      <h5 class="mt-2 p-4">Mot de passe</h5>
+      <h5  class="mt-2 p-4 ml-3"><a href="modifier_lemail.html" style="color: black;">Modifier l'email</a></h5>
+      <h5 class="mt-2 p-4"><a href="motdepasse.html"  style="color: black;" >Mot de passe</a></h5>
     </div>
     <div class="col h-100 form-container position-relative d-flex align-items-center justify-content-center">
       <!-- Contenu formulaire sur le côté droit -->
@@ -97,7 +101,7 @@
             <i class="bi bi-camera"></i>
          </div> 
         </div>
-          <h5 class="text-center">Information</h5>
+          <h4 class="text-center mt-4 mb-4">Information</h4>
           <form>
             <div class="mb-3 mt-3 row">
               <label for="firstname" class="col-form-label col-sm-2">Prénom:</label>

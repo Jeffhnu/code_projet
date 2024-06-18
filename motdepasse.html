@@ -30,6 +30,20 @@
       background: white;
       border-radius: 50%;
     }
+    h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+h5:hover {
+    background-color:  #EE5A34;
+
+}
+a.hover-word:hover{
+    color:  #EE5A34;
+}
   </style>
 </head>
 <body class="vh-100 d-flex flex-column">
@@ -57,12 +71,12 @@
             <a class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Se connecter</a>
+            <a class="nav-link" href="connexon.html">Se connecter</a>
           </li>
           <li class="nav-item d-flex align-items-center">
             <span class="mx-2" style="border-left: 1px solid #000; height: 24px;"></span>
           <li class="nav-item ">
-            <a class="nav-link" href="#" >S'inscrire</a>
+            <a class="nav-link" href="inscription.html" >S'inscrire</a>
           </li>
           <li class="nav-item">
            
@@ -77,10 +91,10 @@
       <!-- Contenu orange sur le côté gauche -->
       <h2 style="color: black;" class="mb-3">Paramètres du compte</h2>
      
-      <div class="mt-5 p-4 pl-3">
-        <h5 >Informations</h5>
+      <div >
+        <h5  class="mt-5 p-4 pl-3"><a href="profil.html" style="color: black;">Information</a></h5>
       </div  >
-      <h5  class="mt-2 p-4 ml-3">Modifier l'email</h5>
+      <h5  class="mt-2 p-4 ml-3"><a href="modifier_lemail.html" style="color: black;">Modifier l'email</a></h5>
       <h5 class="mt-2 p-4">Mot de passe</h5>
     </div>
     <div class="col h-100 form-container position-relative d-flex align-items-center justify-content-center">
@@ -88,7 +102,7 @@
       <div class="container" style="max-width: 650px; height: 100vh; display: flex; flex-direction: column; justify-content: center;">
         <div>
           <div class="mb-5 mt-0">
-            <h4 style="">Definir votre mot de passe</h4>
+            <h2 style="">Definir votre mot de passe</h2>
           </div>
           <h2 class="text-center mb-3 mt-3"></h2>
        
@@ -111,8 +125,11 @@
            
             <div class="d-flex justify-content-end">
               <button type="submit" class="btn btn-primary mr-3" style="background-color: #EE5A34;">Sauvegarder le mot de passe</button>
+             
             </div>
+
             <br><br>
+            <h6 style="text-align: center;" > <a href="modifier_lemail.html" style="color: black;" >Revenir à l'email</a></h6>
           </form>
         </div>
       </div>
